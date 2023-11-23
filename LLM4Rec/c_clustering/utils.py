@@ -8,8 +8,8 @@ from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from langchain.embeddings import OpenAIEmbeddings
 
-openai.api_key ='6e25ec6fa59d44f8af091db59e6db6d7'
-openai.api_base = 'https://tcl-ai.openai.azure.com/' 
+openai.api_key ='xxx'
+openai.api_base = 'https://xxxtcl-ai.openai.azure.com/' 
 openai.api_type = 'azure'
 openai.api_version = '2023-07-01-preview' 
 model_name = "text-embedding-ada-002"
@@ -30,8 +30,8 @@ def getEmbeddingDict(corpus_path, embedding_path):
         embedding = OpenAIEmbeddings(
             deployment = deployment_name,
             model = model_name,
-            openai_api_key = "6e25ec6fa59d44f8af091db59e6db6d7",
-            openai_api_base = 'https://tcl-ai.openai.azure.com/',
+            openai_api_key = "xxx",
+            openai_api_base = 'https://xxxtcl-ai.openai.azure.com/',
             openai_api_type = 'azure',
             openai_api_version = '2023-07-01-preview',
             chunk_size = 1,

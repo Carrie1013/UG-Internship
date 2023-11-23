@@ -33,8 +33,8 @@ filtered_type_tags = [x for x in type_tags if counts[x] >= 5 and (x not in seen 
 embedding = OpenAIEmbeddings(
     deployment = "embedding-ada-002-2",
     model = "text-embedding-ada-002",
-    openai_api_key = "6e25ec6fa59d44f8af091db59e6db6d7",
-    openai_api_base = 'https://tcl-ai.openai.azure.com/',
+    openai_api_key = "xxx",
+    openai_api_base = 'https://xxxtcl-ai.openai.azure.com/',
     openai_api_type = 'azure',
     openai_api_version = '2023-07-01-preview',
     chunk_size=1,

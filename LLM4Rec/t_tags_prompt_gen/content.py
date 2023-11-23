@@ -1,9 +1,9 @@
 import pandas as pd
 
-OPENAI_API_BASE= "https://tcl-ai.openai.azure.com"
+OPENAI_API_BASE= "https://xxxtcl-ai.openai.azure.com"
 OPENAI_API_TYPE = "azure"
 OPENAI_API_VERSION = '2023-07-01-preview'
-OPENAI_API_KEY= "6e25ec6fa59d44f8af091db59e6db6d7"
+OPENAI_API_KEY= "xxx"
 OPENAI_DEPLOYMENT_NAME = 'gpt-4-0314'
 
 MOVIELIST = pd.read_csv('data/movie_tags.csv').head(20)['title'].tolist() # 取movie_tags数据集合中的前20个媒资 - 只取title, prompt中要求基于data source判断judgment步骤
